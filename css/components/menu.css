@@ -1,0 +1,90 @@
+#menu ul{
+list-style-type: none;
+text-align: center;
+width: 50%;
+margin:0;
+padding:0;
+line-height:30px;
+    
+}
+#menu li{
+list-style:none;
+float: left;
+position:relative;
+background-color:black;
+}
+#menu ul li a{
+color:white;
+text-decoration:none;
+width:150px;
+height:30px;
+display:block;
+text-align:center;
+border:1px solid black;
+border-radius:7px;
+font-family: "Edwardian Script ITC", fantasy,sans-serif;
+}
+#menu ul ul{
+	position:absolute;
+	top:30px;
+	visibility:hidden;
+
+}
+#menu ul li:hover ul{
+visibility:visible;
+
+}
+#menu li:hover{
+
+background-color:palevioletred;
+}
+#menu ul li ul a{
+color:black;
+background-color:white;
+}
+#menu ul li ul a:hover{
+color:black;
+background-color:palevioletred;
+}
+
+.continue {
+  float: none;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 40%;
+  color: white;
+  background-color: palevioletred;
+  border: none;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: center;
+}
+
+
+.socialProviderButtons a: hover{
+    background-color: palevioletred;
+    color: black
+}  
+
+.socialProviderButtons a.active{
+    background-color: palevioletred;
+    color: black
+}  
+
+.box{
+    box-sizing:778
+    width: 100%;
+    text-align: right;
+    
+}
+
+.box input [type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
